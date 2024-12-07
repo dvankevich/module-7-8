@@ -1,6 +1,6 @@
-import { Wave } from 'react-animated-text';
+import { Wave } from "react-animated-text";
 
-import { Container, Heading, Section } from 'components';
+import { Container, Heading, Section } from "components";
 
 const Rates = () => {
   const isError = false;
@@ -13,7 +13,7 @@ const Rates = () => {
           bottom
           title={
             <Wave
-              text={`$ $ $ Current exchange rate for 1 ${'UAH'} $ $ $`}
+              text={`$ $ $ Current exchange rate for 1 ${"UAH"} $ $ $`}
               effect="fadeOut"
               effectChange={4.0}
             />
